@@ -8,20 +8,28 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Thinkpad/Downloads/jackson-core-2.10.0.pr3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Thinkpad/Downloads/jackson-databind-2.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Thinkpad/Downloads/json-20090211.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Thinkpad/Downloads/sqljdbc42.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Thinkpad/Downloads/mssql-jdbc-7.2.2.jre11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Thinkpad/Downloads/sqljdbc4-4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Thinkpad/Downloads/mssql-jdbc-6.3.4.jre8-preview.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -1,0 +1,71 @@
+html, body {
+	height: 100%; margin: 0px;
+}
+
+body {
+	background-color: #e6e6e6; font-family: Helvetica; font-size: 12pt;
+}
+
+#container {
+	display: block; position: absolute; bottom:0; top:0; left:0; right:0; margin: 8px; 
+}
+
+#msgContainer {
+	position: absolute; top: 40px; bottom: 45px; background-color: white; width: 1456px; flex: 1;
+    display: flex;
+    overflow: auto;
+    background-color: #f2f4f9;
+}
+#boxContainer {
+	background-color: #ddd; min-width: 1456px; min-height: 400px; overflow-x: auto; display: flex;
+}
+.chatBox {
+	min-width: 300px; background-color: red; margin-left: 20px;
+}
+.header {
+	height: 40px; width: 100%;border: 1px solid green; background-color: #3578e5; font-size: 20px;
+	boder-top-left-radius: 15px;
+	boder-top-right-radius: 15px;
+	color: white;
+	font-weight: 600;
+	
+}
+#msgContainer .msgrow {
+	background-color: #808080;
+	color: white;
+	font-weight: bold;
+	margin: 2px 0px 2px 0px;
+	padding: 6px;
+	border-radius: 12px;
+	border: 1px solid;
+}
+
+#msgController {
+	position: absolute; bottom: 0px; height: 40px; display: flex; width: 1456px;
+}
+
+#loginPanel {
+	width: 300px; padding: 5px; margin: 10px auto; 
+}
+
+#loginPanel #infoLabel {
+	color: green; text-align: center;
+}
+
+#loginPanel .loginInput {
+	width: 100%; border-radius: 6px; margin: 3px 0px;
+}
+#room {
+	display: flex;
+}
+#roomChat {
+	height:100%;
+	width: 20%;
+}
+.btn-room {
+	width: 100%;
+	height : 40px;
+	background-color: #808080;
+	color: white;
+	border-radius: 10px;
+}
