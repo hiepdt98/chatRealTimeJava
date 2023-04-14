@@ -41,7 +41,7 @@
 		<dependency>
 		    <groupId>org.json</groupId>
 		    <artifactId>json</artifactId>
-		    <version>20090211</version>
+		    <version>20230227</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc4 -->	
 		<!-- Used to serialize the message from the browser -->
